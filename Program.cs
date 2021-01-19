@@ -23,7 +23,7 @@ namespace Buchgeschäft
             Console.WriteLine(n.ToString());
             daten.Add(n);
 
-            AudioBook ab = new AudioBook(3.99m, 10, "Alea Aquarius 6: Der Fluss des Vergessens", "Tanya Stewner", "1288230239", 536, Category.Fantasy);
+            AudioBook ab = new AudioBook(3.99m, 10, "Alea Aquarius 6: Der Fluss des Vergessens", "Tanya Stewner", "", 536, Category.Fantasy);
             Console.WriteLine(ab.ToString());
             daten.Add(ab);
 
