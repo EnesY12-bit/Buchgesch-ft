@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Buchgeschäft
 {
-   public class Book : Item //abstrakt
+   internal class Book : Item 
     {
         protected string author; // { get; set; }
-        protected string isbn; //{ get; set; }
-
+        private string isbn; //{ get; set; }
         public Category category;
 
         public Book(decimal price, int stock, string title, string author, string isbn, Category catecory) : base(price,stock,title)

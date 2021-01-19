@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Buchgeschäft
 {
-    public class Newspaper : Item //sealed
+    sealed class Newspaper : Item //sealed
     {
         private DateTime dateOfIssue; //{ get; set; }
 

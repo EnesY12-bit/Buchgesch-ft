@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Buchgeschäft
 {
-    public class Item //abstrakt
+    abstract class Item //abstrakt
     {
-        public decimal price; // { get; set; }
+        private decimal price; // { get; set; }
 
-        public int stock; // { get; set; }
-        public string Titel { get;}
+        private int stock; // { get; set; }
+        protected string Titel { get;}
 
         public Item(decimal price, int stock, string title)
         {
