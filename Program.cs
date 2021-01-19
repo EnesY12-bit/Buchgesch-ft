@@ -10,7 +10,7 @@ namespace Buchgeschäft
     {
         static void Main(string[] args)
         {
-            
+            // Test, ob Git funktioniert
             Book b = new Book(25.00m, 5, "The Malta Exchange", "Steve Berry", "78279180012",Category.Thriller);
             Console.WriteLine(b.ToString());
 
