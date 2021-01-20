@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Buchgeschäft
 {
-   internal class Book : Item 
+ /*  internal class Book : Item 
     {
         protected string author; // { get; set; }
         private string isbn; //{ get; set; }
@@ -33,4 +33,5 @@ namespace Buchgeschäft
         Food = 40,
         Children = 50
     }
+ */
 }

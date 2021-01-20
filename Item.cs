@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Buchgeschäft
 {
+    /*
     abstract class Item //abstrakt
     {
         private decimal price; // { get; set; }
@@ -39,10 +40,6 @@ namespace Buchgeschäft
             }
         }
        
-        // Dies war nur für ein Test
-       /* public override string ToString()
-        {
-            return $"{Titel} kostet {price}";
-        }*/
     }
+        */
 }

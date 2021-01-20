@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Buchgeschäft
 {
-    sealed class AudioBook : Book
+ /*   sealed class AudioBook : Book
     {
         private int duration;
         public AudioBook(decimal price, int stock, string title, string author, string isbn, int duration,Category category) :base(price, stock, title,author,isbn,category)
@@ -18,5 +18,5 @@ namespace Buchgeschäft
            // return $"AudioBook: {Titel} ({author}, {duration} minutes, {category} ({(int)category})), ISBN:{isbn}";
             return $"{GetType().Name}: {Titel} ({author}, {duration} minutes, {category} ({(int)category}))";
         }
-    }
+    }*/
 }

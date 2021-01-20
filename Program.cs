@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BookstoreLibrary;
 
 namespace Buchgeschäft
 {
-    class Program
+   class Program
     {
         static void Main(string[] args)
         {
@@ -26,6 +27,8 @@ namespace Buchgeschäft
             AudioBook ab = new AudioBook(3.99m, 10, "Alea Aquarius 6: Der Fluss des Vergessens", "Tanya Stewner", "", 536, Category.Fantasy);
             Console.WriteLine(ab.ToString());
             daten.Add(ab);
+
+            Console.WriteLine($"3+3={BookstoreLibary.Bookstore.Add(3, 3)}");
 
             Console.ReadKey();
 
